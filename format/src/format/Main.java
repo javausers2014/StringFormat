@@ -4,8 +4,10 @@ package format;
 public class Main {
 	private final static String TRAN_ID_REGEXPR ="(\\d{8})(\\d{4})(\\d{4})(\\d{4})(\\d{12})";
 	private final static String TRAN_ID_SUBTITUTIONSTR ="$1-$2-$3-$4-$5";
-	
-	//- d
+
+	//- dw
+
+
 	public static void main(String[] args) {
 
 		String orderId = "122345644478978978978979879879871";
